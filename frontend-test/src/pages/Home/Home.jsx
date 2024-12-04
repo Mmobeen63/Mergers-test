@@ -56,7 +56,7 @@ function Home (props) {
   // Remove this const when copying and pasting into your project.
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box className='flex'>
       <AppBar
         position='fixed'
         sx={{
