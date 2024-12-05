@@ -107,6 +107,9 @@ const DataTable = () => {
                   ))}
               </TableBody>
             </Table>
+            {filteredData?.length === 0 && (
+              <div className='text-center pt-5'>No Data Found</div>
+            )}
           </TableContainer>
           <TablePagination
             rowsPerPageOptions={[5, 10, 25]}
