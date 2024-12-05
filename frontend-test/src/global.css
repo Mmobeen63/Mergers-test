@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primaryButton {
+  display: inline-flex;
+  padding: 10px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  color: #22222b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  border-radius: 6px;
+  background: transparent;
+  border: 2px solid #22222b;
+}

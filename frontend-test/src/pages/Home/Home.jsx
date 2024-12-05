@@ -13,7 +13,7 @@ import HomeIcon from '@mui/icons-material/Home'
 import MenuIcon from '@mui/icons-material/Menu'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import DataTable from '../../components/TableComponent/TableComponent'
+import DataTable from '../../components/Table/Table'
 
 const drawerWidth = 240
 
@@ -60,6 +60,7 @@ function Home (props) {
       <AppBar
         position='fixed'
         sx={{
+          background:"#22222b",
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` }
         }}

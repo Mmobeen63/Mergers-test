@@ -1,8 +1,13 @@
-import { Button } from '@mui/material'
 import React from 'react'
-const ReusableButton = ({label="filter", ...props}) => {
+
+const ReusableButton = ({ label = '', className = '', ...props }) => {
   return (
-      <Button {...props}>{label}</Button>
+    <button
+      {...props}
+      className={`primaryButton ${className}`}
+    >
+      {label}
+    </button>
   )
 }
 
