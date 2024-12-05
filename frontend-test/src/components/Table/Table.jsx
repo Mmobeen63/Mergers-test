@@ -27,7 +27,7 @@ const DataTable = () => {
     try {
       setLoading(true)
       const response = await axios.get(
-        'https://jsonplaceholder.typicode.com/users'
+        'https://jsonplaceholder.typicode.com/users' //base url was not provided in the test, using this api
       )
       setData(response.data)
       setFilteredData(response.data)
