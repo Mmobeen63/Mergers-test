@@ -1,0 +1,26 @@
+.badge {
+  display: flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  width: max-content;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+@media (max-width: 768px) {
+  .badge {
+    padding: 6px 16px;
+    /* Detail body text 14 */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 150%; /* 21px */
+  }
+}
